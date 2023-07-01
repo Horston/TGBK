@@ -4,7 +4,7 @@ const cors = require('cors');
 
 
 const token = '6317056088:AAHj4EzZ9BImDJfnnKVcubAPYRzUKb9MmPI';
-const webAppUrl ='http://localhost:3000';
+const webAppUrl ='https://cheerful-wisp-5d92c3.netlify.app';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
