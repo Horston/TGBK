@@ -4,7 +4,7 @@ const cors = require('cors');
 
 
 const token = '6317056088:AAHj4EzZ9BImDJfnnKVcubAPYRzUKb9MmPI';
-const webAppUrl ='exquisite-belekoy-2eb75d.netlify.app';
+const webAppUrl ='https://exquisite-belekoy-2eb75d.netlify.app/';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
